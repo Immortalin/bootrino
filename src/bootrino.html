@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* reset */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+input,button,select,textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+/* Text decoration */
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.text-center{text-align:center;}
+.text-justify{text-align:justify;}
+
+/* grid */
+.row:before,.row:after{display:table;content:" "}
+.row:after{clear:both}
+.row {margin-right:-15px;margin-left:-15px}
+/* only xs is supported */
+.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12
+{position:relative;min-height:1px;padding-right:15px;padding-left:15px;float:left}
+.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}
+.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}
+
+.rnd-button{text-transform: none;cursor: pointer;width: 60px;color:white;
+height: 60px;
+border-radius: 30px;
+border: 1px solid;}
+.rnd-button.on{background-color: #5cb85c;border-color: #4cae4c;}
+.rnd-button.on:focus{background-color: #449d44;border-color: #255625;}
+.rnd-button.on:hover,.rnd-button.on:active{background-color: #449d44;border-color: #398439}
+
+.rnd-button.off{background-color: #d9534f;border-color: #d43f3a;}
+.rnd-button.off:focus{background-color: #c9302c;border-color: #761c19;}
+.rnd-button.off:hover,.rnd-button.off:active{background-color: #c9302c;border-color: #ac2925}
+</style>
+</head>
+<body>
+
+<div class="row">
+	<div class="col-xs-12 text-center">
+		<button class="rnd-button off">on</button>
+	</div>
+</div>
+
+</body>
+</html>
