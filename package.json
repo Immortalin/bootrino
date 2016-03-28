@@ -1,0 +1,26 @@
+{
+  "name": "bootrino",
+  "version": "1.0.0",
+  "description": "a bootstrap like framework for adruino and other embedded devices",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melenaos/bootrino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melenaos/bootrino/issues"
+  },
+  "homepage": "https://github.com/melenaos/bootrino#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-dom": "^0.8.0",
+    "gulp-minify-inline": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3"
+  }
+}
